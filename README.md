@@ -1,3 +1,7 @@
+## Simple Profile Card
+
+This is a profile card with some informations made in react
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
