@@ -14,9 +14,9 @@ export default function Profile(props) {
         <div className={styles.line}></div>
         <p>{props.email}</p>
         <div className={styles.line}></div>
-        <button><a target='_blank' href={props.githubUrl}> Github </a></button>
-        <button><a target='_blank' href={props.linkedinUrl}> Linkedin </a></button>
-        <button><a target='_blank' href={props.instagramUrl}> Instagram </a></button>
+        <button><a target='_blank' href={`https://${props.githubUrl}`}> Github </a></button>
+        <button><a target='_blank' href={`https://${props.linkedinUrl}`}> Linkedin </a></button>
+        <button><a target='_blank' href={`https://${props.instagramUrl}`}> Instagram </a></button>
     </div>
   )
 }
